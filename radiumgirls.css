@@ -12,7 +12,6 @@ body {
 	background-color: #010700;
 	font-family: 'Montserrat', sans-serif;
 	color: #77ad72;
-	margin: 10px 50px;
 	text-align: center;
 	font-size: 1.1em;
 }
@@ -60,9 +59,10 @@ h1 {
 }
 
 p {
-	padding: 5px;
-	text-indent: 25px;
-	line-height: 1.5;
+	padding: 0.5em;
+	margin: 0.1em 4em;
+	text-indent: 3em;
+	line-height: 1.5em;
 }
 
 ul {
@@ -71,7 +71,7 @@ ul {
 }
 
 #title-wrapper {
-	margin: 50px 0
+	margin: 50px 0;
 }
 
 #image {
@@ -99,9 +99,8 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-	body, p {
+	p {
 		margin: 0em;
 		padding: 0em 0em;
-		word-wrap: break-word;
 	}
 }
