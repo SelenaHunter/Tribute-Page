@@ -62,7 +62,6 @@ h1 {
 p {
 	padding: 0.5em;
 	margin: 0.1em 4em;
-	text-indent: 3em;
 	line-height: 1.5em;
 }
 
@@ -85,7 +84,6 @@ p {
 
 footer {
 	margin-top: 5em;
-	;
 	padding: 0em;
 	width: 100%;
 	color: #26ad1a;
@@ -99,8 +97,12 @@ footer {
 		padding: 0.2em;
 	}
 	
-	p, h1 {
+	body p, body h1 {
 		margin: 0.5em;
 		padding: 0.5em;
+	}
+	
+	footer p {
+		text-indent: 0;
 	}
 }
