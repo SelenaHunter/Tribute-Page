@@ -14,7 +14,7 @@ body {
 	color: #77ad72;
 	margin: 10px 50px;
 	text-align: center;
-	font-size:15px;
+	font-size: 1.1em;
 }
 
 hr {
@@ -24,20 +24,20 @@ hr {
 #title {
 	color: #26ad1a;
 	font-family: 'Merriweather', serif;
-	font-size: 65px;
+	font-size: 4em;
 	padding: 10px;
 }
 
 #subtitle {
 	color: #26ad1a;
 	font-family: 'Merriweather', serif;
-	font-size: 35px;
+	font-size: 2em;
 	padding: 5px 20px;
 }
 
 #img-caption {
 	font-family: 'Merriweather', serif;
-	font-size: 15px;
+	font-size: 1em;
 	font-style: italic;
 	padding: 5px;
 }
@@ -54,7 +54,7 @@ a:hover {
 h1 {
 	color: #26ad1a;
 	font-family: 'Merriweather', serif;
-	font-size: 25px;
+	font-size: 2em;
 	padding: 10px 5px 10px 5px;
 	text-align: center;
 }
@@ -62,6 +62,7 @@ h1 {
 p {
 	padding: 5px;
 	text-indent: 25px;
+	line-height: 1.5;
 }
 
 ul {
@@ -92,7 +93,15 @@ footer {
 	padding:0px;
 	width: 100%;
 	color: #26ad1a;
-	font-size: 12px;
-	background-color: rgba(44, 68, 68, 0.3)
-	
+	font-size: 0.8em;
+	background-color: rgba(44, 68, 68, 0.3)	
+}
+
+@media only screen and (max-width: 600px) {
+
+	body, p {
+		margin: 0em;
+		padding: 0em 0em;
+		word-wrap: break-word;
+	}
 }
