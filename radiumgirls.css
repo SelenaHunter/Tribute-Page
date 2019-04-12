@@ -94,8 +94,12 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-
-	p {
+	#title, #subtitle {
+		margin: 0em;
+		padding: 0.2em;
+	}
+	
+	p, h1 {
 		margin: 0.5em;
 		padding: 0.5em;
 	}
